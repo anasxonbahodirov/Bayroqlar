@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2B3844;
+    color: white;
+    padding: 24px 0;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-mode-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &>p {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21.82px;
+        text-align: left;
+    }
+}
+
+.text-left {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    text-align: left;
+}
+
+main {
+    background-color: #202C36;
+}
+
+.flag {
+    width: 264px;
+    color: white;
+    background-color: #2B3844;
+}
+
+.flag .texts {
+    padding: 24px;
+}
+
+.name {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info>p {}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+    margin-top: -30px;
+}
+
+.imageslar {
+    height: 158px;
+    width: 264px;
+}
+
+.p24 {
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.i1 {
+    width: 480px;
+    height: 56px;
+    top: 128px;
+    left: 80px;
+    background-color: #2B3844;
+    color: white;
+    top: 27.93px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 30px;
+    margin-left: 37px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 0px 50px 0px;
+}
+
+.lupaich {
+    width: 100px;
+    height: 150px;
+    margin-left: 101px;
+}
+
+.lupa {
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+    
+}
+
+@media (max-width: 1400px) {
+    .flags-wrapper {
+        justify-content: center;
+    }
+}
